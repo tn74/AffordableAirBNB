@@ -1,0 +1,62 @@
+
+.enter-map-coords label {
+    font-size: 18px;
+    color: #333;
+    text-align: right;
+    margin-right:15px;
+    display: inline-block;
+    vertical-align: middle;
+    float:left;
+    width: 15%;
+}
+.enter-map-coords input {
+	width: 80%;
+}
+
+.house-info-label{
+	border:none !important;
+	font-size: 100px;
+    color: #333;
+    display: inline-block;
+    vertical-align: middle;
+    float:left;
+    width: 15%;
+    height:100%;
+}
+
+.house-info-input{
+	border:none !important;
+	font-size: 18px;
+    color: #333;
+    display: inline-block;
+    vertical-align: middle;
+    float:left;
+    width: 15%;
+    height:100%;
+}
+
+.submit-button{
+	border:none !important;
+	height:100%;
+}
+
+#submit-info{
+	float:left;
+}
+
+#map{
+	float:left;
+	width:100%;
+	min-height: 300px;
+	height:100%;
+}
+
+select{
+    display:none;
+}
+/*
+ .enter-map-coords label, .input-w input {
+    float: none; /* if you had floats before? otherwise inline-block will behave differently *//*
+    display: inline-block;
+    vertical-align: middle;    
+}*/
